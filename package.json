@@ -1,0 +1,25 @@
+{
+  "name": "responsive-preview",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Local responsive preview tool: view your localhost site inside phone, tablet and desktop viewports.",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@vitejs/plugin-react": "^6.1.2",
+    "tailwindcss": "^4.3.3",
+    "vite": "^8.3.3"
+  }
+}
